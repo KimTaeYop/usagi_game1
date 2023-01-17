@@ -1249,6 +1249,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   page_start: {fileID: 1189006005}
   page_begin1: {fileID: 1779737021}
+  point: 0
+  ei: 0
+  sn: 0
+  ft: 0
+  jp: 0
+  stat_a: 0
+  stat_b: 0
+  stat_c: 0
 --- !u!1 &1181322562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1270,7 @@ GameObject:
   - component: {fileID: 1181322565}
   - component: {fileID: 1181322564}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: "\uCC98\uC74C\uBD80\uD130"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1348,6 +1356,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1143429003}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: Off_start
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1143429003}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Manage_point
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
